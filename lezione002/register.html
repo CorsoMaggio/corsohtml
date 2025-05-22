@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registrazione</title>
+    </head>
+    <body>
+        <h2>Crea un nuovo account</h2>
+
+        <form action="#" method="POST">
+            <div>
+                <label for="fullname">Nome completo</label>
+                <input id="fullname" type="text"
+                    placeholder="Inserisci il tuo nome" required>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email"
+                    placeholder="Inserisci la tua email" required>
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input id="password" type="password"
+                    placeholder="Crea una password" required>
+            </div>
+
+            <div>
+                <label for="confirm-password">Conferma Password</label>
+                <input id="confirm-password" type="password"
+                    placeholder="Ripeti la password" required>
+            </div>
+
+            <div>
+                <h2>Seleziona il tuo genere</h2>
+                <div>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Maschio</label>
+                </div>
+                <div>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Femmina</label>
+                </div>
+                <div>
+                    <input type="radio" id="other" name="gender">
+                    <label for="other">Altro</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="bio">Breve descrizione</label>
+                <textarea id="bio" rows="5"
+                    placeholder="Parlaci di te..."></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Registrati</button>
+                <button type="reset">Cancella</button>
+            </div>
+        </form>
+
+        <p>Hai già un account? <a href="login.html">Effettua il
+                login</a></p>
+    </body>
+</html>
